@@ -134,6 +134,8 @@ def main(args):
                         batch_size=args.eval_batch_size,
                         output_type="numpy")
 
+                    print(f'Saving images for step {global_step}')
+
                     save_images(generated_images, epoch, args)
 
                     torch.save(
@@ -141,7 +143,7 @@ def main(args):
                             'model_state': model.state_dict(),
                             'ema_model_state': ema.ema_model.state_dict(),
                             'optimizer_state': optimizer.state_dict(),
-                        }, args.output_dir)
+                        }, args.logging_dir)
 
         progress_bar.close()
         losses.append(losses_log / (step + 1))
@@ -170,6 +172,10 @@ if __name__ == "__main__":
                     type=str,
                     default=None,
                     help="Path to pretrained model")
+
+    # output
+    parser.add_argument("--samples_dir", type=str, default="samples")
+    parser.add_argument("--dataset_name", type=str, default="stanfordcars")
 
     # training parameters
     parser.add_argument("--resolution", type=int, default=64)

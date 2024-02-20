@@ -1,4 +1,4 @@
-# MSAI 437 Deep Learning Final Project - Simple DDIM
+# MSAI 437 Deep Learning Final Project - Simple DDIM from scratch
 
 This repository contains the implementation of a simple Denoising Diffusion Implicit Models (DDIM) for the MSAI 437 Deep Learning course at Northwestern University. The project aims to demonstrate the application of diffusion models in generating high-quality samples from a data distribution.
 
