@@ -143,7 +143,7 @@ def main(args):
                             'model_state': model.state_dict(),
                             'ema_model_state': ema.ema_model.state_dict(),
                             'optimizer_state': optimizer.state_dict(),
-                        }, args.logging_dir)
+                        }, args.output_dir)
 
         progress_bar.close()
         losses.append(losses_log / (step + 1))
@@ -176,6 +176,7 @@ if __name__ == "__main__":
     # output
     parser.add_argument("--samples_dir", type=str, default="samples")
     parser.add_argument("--dataset_name", type=str, default="stanfordcars")
+    parser.add_argument("--output_dir", type=str, default="trained_models/ddpm-model-1.pth")
 
     # training parameters
     parser.add_argument("--resolution", type=int, default=64)
