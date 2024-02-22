@@ -23,9 +23,13 @@ conda activate ddim
 # Install PyTorch from the official website (compiled with CUDA)
 pip install -r requirements.txt
 ```
+
+Download trained model weights from [here](https://drive.google.com/drive/folders/1URqy-GJMKjxyuAwFfvdAhOVrT2dGvz9o?usp=sharing) and place in ./trained_models
+
 ### To-do
 - ~~training~~
 - ~~add attention mechanism to unet architecture~~
 - evaluation of trained model
 - inference from trained model
-- add model outputs
+- add trained models and model outputs
+- train GAN on same data for performance comparison
