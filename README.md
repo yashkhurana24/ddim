@@ -30,6 +30,6 @@ Download trained model weights from [here](https://drive.google.com/drive/folder
 - ~~training~~
 - ~~add attention mechanism to unet architecture~~
 - evaluation of trained model
-- inference from trained model
+- ~~inference from trained model~~
 - add trained models and model outputs
 - train GAN on same data for performance comparison
