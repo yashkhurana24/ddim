@@ -6,6 +6,12 @@ This repository contains the implementation of a simple Denoising Diffusion Impl
 
 Denoising Diffusion Implicit Models (DDIM) are a class of generative models that iteratively convert noise into samples from the target distribution. This project implements a simplified version of DDIM to understand the underlying principles and to explore its capabilities in generating complex data distributions.
 
+## Model outputs
+![Model Outputs](https://github.com/yashkhurana24/ddim/blob/main/model_outptus/462_grid.jpeg)
+
+- Dataset can be found [here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
+- Download trained model weights from [here](https://drive.google.com/drive/folders/1URqy-GJMKjxyuAwFfvdAhOVrT2dGvz9o?usp=sharing) and place in ./trained_models
+
 ## Installation
 
 To set up the project environment, follow these steps:
@@ -23,9 +29,6 @@ conda activate ddim
 # Install PyTorch from the official website (compiled with CUDA)
 pip install -r requirements.txt
 ```
-
-- Dataset can be found [here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
-- Download trained model weights from [here](https://drive.google.com/drive/folders/1URqy-GJMKjxyuAwFfvdAhOVrT2dGvz9o?usp=sharing) and place in ./trained_models
 
 ### To-do
 - ~~training~~
