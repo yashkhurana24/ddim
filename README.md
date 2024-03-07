@@ -24,12 +24,14 @@ conda activate ddim
 pip install -r requirements.txt
 ```
 
-Download trained model weights from [here](https://drive.google.com/drive/folders/1URqy-GJMKjxyuAwFfvdAhOVrT2dGvz9o?usp=sharing) and place in ./trained_models
+- Dataset can be found [here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
+- Download trained model weights from [here](https://drive.google.com/drive/folders/1URqy-GJMKjxyuAwFfvdAhOVrT2dGvz9o?usp=sharing) and place in ./trained_models
 
 ### To-do
 - ~~training~~
 - ~~add attention mechanism to unet architecture~~
 - evaluation of trained model
 - ~~inference from trained model~~
-- add trained models and model outputs
+- ~~add trained models and model outputs~~
 - train GAN on same data for performance comparison
+- remove all dependencies except pytorch
