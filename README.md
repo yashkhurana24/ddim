@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### To-do
 - ~~training~~
 - ~~add attention mechanism to unet architecture~~
-- evaluation of trained model
+- ~~evaluation of trained model~~
 - ~~inference from trained model~~
 - ~~add trained models and model outputs~~
 - ~~train GAN on same data for performance comparison~~
