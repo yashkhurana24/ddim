@@ -36,5 +36,5 @@ pip install -r requirements.txt
 - evaluation of trained model
 - ~~inference from trained model~~
 - ~~add trained models and model outputs~~
-- train GAN on same data for performance comparison
+- ~~train GAN on same data for performance comparison~~
 - remove all dependencies except pytorch
